@@ -42,9 +42,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button13 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.mySecondCustmControl1 = new FastFoodDemo.MySecondCustmControl();
             this.firstCustomControl1 = new FastFoodDemo.FirstCustomControl();
-            this.button4 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -111,6 +111,7 @@
             this.button6.Text = "       Transaction";
             this.button6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button3
             // 
@@ -128,6 +129,7 @@
             this.button3.Text = "       Order";
             this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -240,23 +242,6 @@
             this.button13.UseVisualStyleBackColor = true;
             this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
-            // mySecondCustmControl1
-            // 
-            this.mySecondCustmControl1.Location = new System.Drawing.Point(315, 208);
-            this.mySecondCustmControl1.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
-            this.mySecondCustmControl1.Name = "mySecondCustmControl1";
-            this.mySecondCustmControl1.Size = new System.Drawing.Size(1227, 625);
-            this.mySecondCustmControl1.TabIndex = 6;
-            this.mySecondCustmControl1.Load += new System.EventHandler(this.mySecondCustmControl1_Load);
-            // 
-            // firstCustomControl1
-            // 
-            this.firstCustomControl1.Location = new System.Drawing.Point(314, 240);
-            this.firstCustomControl1.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
-            this.firstCustomControl1.Name = "firstCustomControl1";
-            this.firstCustomControl1.Size = new System.Drawing.Size(1208, 651);
-            this.firstCustomControl1.TabIndex = 5;
-            // 
             // button4
             // 
             this.button4.FlatAppearance.BorderSize = 0;
@@ -274,6 +259,23 @@
             this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // mySecondCustmControl1
+            // 
+            this.mySecondCustmControl1.Location = new System.Drawing.Point(315, 208);
+            this.mySecondCustmControl1.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.mySecondCustmControl1.Name = "mySecondCustmControl1";
+            this.mySecondCustmControl1.Size = new System.Drawing.Size(1227, 625);
+            this.mySecondCustmControl1.TabIndex = 6;
+            this.mySecondCustmControl1.Load += new System.EventHandler(this.mySecondCustmControl1_Load);
+            // 
+            // firstCustomControl1
+            // 
+            this.firstCustomControl1.Location = new System.Drawing.Point(314, 240);
+            this.firstCustomControl1.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.firstCustomControl1.Name = "firstCustomControl1";
+            this.firstCustomControl1.Size = new System.Drawing.Size(1208, 651);
+            this.firstCustomControl1.TabIndex = 5;
             // 
             // FormMenuUtama
             // 

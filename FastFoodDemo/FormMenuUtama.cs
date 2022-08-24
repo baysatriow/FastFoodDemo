@@ -63,5 +63,22 @@ namespace FastFoodDemo
             login formlgn = new login();
             formlgn.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            SidePanel.Height = button3.Height;
+            SidePanel.Top = button3.Top;
+            tambahitemControl tmbhitem = new tambahitemControl();
+            tmbhitem.BringToFront();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            SidePanel.Height = button6.Height;
+            SidePanel.Top = button6.Top;
+            Transaksi transaksi = new Transaksi();
+            transaksi.Show();
+            this.Hide();
+        }
     }
 }
