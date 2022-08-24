@@ -16,5 +16,12 @@ namespace FastFoodDemo
         {
             InitializeComponent();
         }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormMenuUtama frmUtama = new FormMenuUtama();
+            frmUtama.Show();
+        }
     }
 }

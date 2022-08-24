@@ -48,6 +48,7 @@
             this.button17 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
             this.button19 = new System.Windows.Forms.Button();
+            this.button20 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -60,7 +61,7 @@
             this.button1.Location = new System.Drawing.Point(180, 609);
             this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(217, 65);
+            this.button1.Size = new System.Drawing.Size(187, 65);
             this.button1.TabIndex = 7;
             this.button1.Text = "Tambah";
             this.button1.UseVisualStyleBackColor = false;
@@ -72,10 +73,10 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(841, 609);
+            this.button2.Location = new System.Drawing.Point(637, 609);
             this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(217, 65);
+            this.button2.Size = new System.Drawing.Size(187, 65);
             this.button2.TabIndex = 8;
             this.button2.Text = "Hapus";
             this.button2.UseVisualStyleBackColor = false;
@@ -98,10 +99,10 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(520, 609);
+            this.button3.Location = new System.Drawing.Point(410, 609);
             this.button3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(217, 65);
+            this.button3.Size = new System.Drawing.Size(187, 65);
             this.button3.TabIndex = 10;
             this.button3.Text = "Edit";
             this.button3.UseVisualStyleBackColor = false;
@@ -346,10 +347,27 @@
             this.button19.Text = "Menu";
             this.button19.UseVisualStyleBackColor = false;
             // 
-            // tambahitem
+            // button20
+            // 
+            this.button20.BackColor = System.Drawing.Color.Black;
+            this.button20.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button20.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button20.ForeColor = System.Drawing.Color.White;
+            this.button20.Location = new System.Drawing.Point(871, 609);
+            this.button20.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button20.Name = "button20";
+            this.button20.Size = new System.Drawing.Size(187, 65);
+            this.button20.TabIndex = 26;
+            this.button20.Text = "Kembali";
+            this.button20.UseVisualStyleBackColor = false;
+            this.button20.Click += new System.EventHandler(this.button20_Click);
+            // 
+            // tambahitemControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.button20);
             this.Controls.Add(this.button19);
             this.Controls.Add(this.button16);
             this.Controls.Add(this.button17);
@@ -370,7 +388,7 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Name = "tambahitem";
+            this.Name = "tambahitemControl";
             this.Size = new System.Drawing.Size(1271, 745);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -399,5 +417,6 @@
         private System.Windows.Forms.Button button17;
         private System.Windows.Forms.Button button18;
         private System.Windows.Forms.Button button19;
+        private System.Windows.Forms.Button button20;
     }
 }

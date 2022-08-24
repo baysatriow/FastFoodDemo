@@ -54,7 +54,7 @@ namespace FastFoodDemo
             SidePanel.Height = button7.Height;
             SidePanel.Top = button7.Top;
             Laporan laporan = new Laporan();
-            laporan.BringToFront();
+            laporan.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
